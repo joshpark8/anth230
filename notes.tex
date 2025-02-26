@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+\usepackage{titlesec}
+\usepackage{asymptote}
+\usepackage{subfiles}
+
+\title{ANTH 230: Gender Across Cultures}
+\author{Lecturer: Prof. Elizabeth Wirtz \\ Transcribed by Josh Park}
+\date{Spring 2025}
+
+% Define a new sectioning command: subsubsubsection
+\newcommand{\subsubsubsection}[1]{%
+  \paragraph{#1}\mbox{}\\
+}
+
+\input{preamble}
+\input{letterfont}
+\input{macros}
+
+\chead{ANTH 230: Gender Across Cultures}
+
+\renewcommand{\arraystretch}{1} % space out table rows
+% \setlength{\parindent}{0pt}
+% \setlength{\parskip}{1em}
+% \linespread{1} % 1.3 for one-and-half spacing, 1.6 for double spacing
+
+\begin{document}
+\maketitle
+\tableofcontents
+\pagebreak
+\subfile{lectures/lec1.tex}
+
+% \setcounter{section}{6}
+\subfile{lectures/lec6.tex}
+\subfile{lectures/lec7.tex}
+\subfile{lectures/lec8.tex}
+\subfile{lectures/lec9.tex}
+\subfile{lectures/lec10.tex}
+\subfile{lectures/lec11.tex}
+\subfile{lectures/lec12.tex}
+\subfile{lectures/lec13.tex}
+\end{document}
